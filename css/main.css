@@ -1,0 +1,126 @@
+* RESET Styles */ body,
+p,
+h2,
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    width: 1500px;
+    height: 864px;
+    background-color: #b07cf7;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.header__title {
+    font-size: 90px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header__subtitle {
+    width: 570px;
+    height: 63px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    width: 370px;
+    height: 310px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.content:hover {
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+    background-color: #fbfbf7;
+}
+
+.content__one {
+    background-image: url(../img/greensmuzi.png), linear-gradient(0deg, #000000 0%, #ffffff 100%);
+}
+
+.content__two {
+    background-image: url(../img/greenpeas.png), linear-gradient(0deg, #000000 0%, #ffffff 100%);
+}
+
+.content__tree {
+    background-image: url(../img/rasberry.png), linear-gradient(0deg, #000000 0%, #ffffff 100%);
+}
+
+.data {
+    width: 60px;
+    border-radius: 5px;
+    background-color: #262626;
+    opacity: 0.5;
+    text-align: center;
+
+}
+
+.data__number {
+    font-size: 32px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.data__month {
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.title {
+    height: 79px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 120px;
+}
+
+.subtitle {
+    padding-top: 40px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+    background-color: #f72b3b;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
